@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import EnterNumber from './components/EnterNumber/EnterNumber';
 import CurrentTotal from './components/CurrentTotal/CurrentTotal';
 import History from './components/History/History';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 class App extends Component {
@@ -39,6 +40,7 @@ class App extends Component {
         <CurrentTotal currentTotal={this.state.currentTotal} updateHistory={this.updateHistory}/>
         <p>Click 'Submit' to save the current total in history.</p>
         <History historyArray={this.state.historyArray}/>
+        <Footer />
       </div>
     );
   }

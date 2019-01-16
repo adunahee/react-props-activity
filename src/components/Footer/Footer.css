@@ -1,7 +1,11 @@
-header {
+footer {
     background-color: slateblue;
     color: aquamarine;
     max-width: 600px;
     height: 40px;
     margin: auto;
+}
+
+span {
+    float: right;
 }
