@@ -14,3 +14,7 @@ form {
     max-width: 600px;
     margin: auto;
 }
+
+h2 {
+    max-height: 20px;
+}
