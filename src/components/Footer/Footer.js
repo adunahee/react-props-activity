@@ -7,7 +7,7 @@ class Footer extends Component {
         return(
             <footer>
                 <br />
-                <span>Created by Anthony Dunahee</span>
+                <strong><span>Created by Anthony Dunahee</span></strong>
             </footer>
         )
     }

@@ -2,6 +2,6 @@ header {
     background-color: slateblue;
     color: aquamarine;
     max-width: 600px;
-    height: 40px;
+    height: auto;
     margin: auto;
 }

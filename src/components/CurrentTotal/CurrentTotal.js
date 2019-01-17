@@ -7,15 +7,22 @@ class CurrentTotal extends Component {
         event.preventDefault();
         this.props.updateHistory();
     }
+
+
     render() {
+        let constDisplayTotal;
+        if (this.props.currentTotal !== 0) {
+            constDisplayTotal = this.props.currentTotal;
+        }
 
         return (
             <form className="current-total" onSubmit={this.submitHistory}>
                 <h2>Your Current Total</h2>
-                <strong>{this.props.currentTotal}</strong>
+                <strong>{constDisplayTotal}</strong>
                 <br />
                 <br />
-            <button type="submit">Submit</button>
+                <button type="submit">Submit</button>
+                <p>Click 'Submit' to save your current total.</p>
             </form>
         )
     }
